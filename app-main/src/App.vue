@@ -10,4 +10,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+div {
+  padding: 20px;
+  border: 5px solid black;
+}
+</style>
