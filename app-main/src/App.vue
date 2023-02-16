@@ -1,6 +1,6 @@
 <template>
   <div>
-    This is a Vue template for main app
+    <h1>Main page</h1>
   </div>
 </template>
 
@@ -12,7 +12,6 @@ export default {
 
 <style scoped>
 div {
-  padding: 20px;
   border: 5px solid black;
 }
 </style>

@@ -3,19 +3,13 @@
     <h1>Header</h1>
     <h3>This is the Header in Vue</h3>
 
-    <a href="/">
-      Rota padrão
-    </a>
-    <a href="/elevar">
-      Rota alternativa
-    </a>
+    <button @click="navigateToUrl('/')">Home</button>
+    <button @click="navigateToUrl('/product')">Produto</button>
   </header>
 </template>
 
-<script>
-export default {
-  name: 'App',
-}
+<script setup>
+import { navigateToUrl } from "single-spa";
 </script>
 
 <style scoped>
